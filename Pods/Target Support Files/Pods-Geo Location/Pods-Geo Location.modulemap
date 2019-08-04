@@ -1,0 +1,6 @@
+framework module Pods_Geo_Location {
+  umbrella header "Pods-Geo Location-umbrella.h"
+
+  export *
+  module * { export * }
+}
