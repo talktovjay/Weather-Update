@@ -45,10 +45,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate, ChangeCityDel
     }
 
 
-    @IBAction func getWeather(_ sender: Any) {
-        
-    }
-    
+
     
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         
@@ -102,7 +99,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate, ChangeCityDel
             }
             else {
                 
-                print("Error \(response.result.error)")
+                print("Error \(response.result.error ?? "Error" as! Error)")
                 self.label.text = "Connection Issue"
             }
             
@@ -126,12 +123,12 @@ class ViewController: UIViewController, CLLocationManagerDelegate, ChangeCityDel
         
         weatherDataModel.weatherIconName = weatherDataModel.updateWeatherIcon(condition: weatherDataModel.condition)
         
-        let cityResult = json["json"]["name"]
+        _ = json["json"]["name"]
         
         
       updateWeatherIcon()
         
-   
+        
         
     }
     
