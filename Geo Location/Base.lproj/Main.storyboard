@@ -154,10 +154,20 @@
                                     <action selector="getCityWeather:" destination="jnl-YJ-pFh" eventType="touchUpInside" id="rgS-Fc-9Qd"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oif-H7-36u">
+                                <rect key="frame" x="39" y="149" width="297" height="78"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="78" id="x6T-iA-uKg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="37"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="wDw-Js-TTB" firstAttribute="bottom" secondItem="VrM-to-QRh" secondAttribute="bottom" constant="609" id="9T0-J3-S9H"/>
+                            <constraint firstItem="oif-H7-36u" firstAttribute="top" secondItem="wDw-Js-TTB" secondAttribute="top" constant="129" id="HXC-eL-j0V"/>
                             <constraint firstItem="tke-m8-AQW" firstAttribute="leading" secondItem="wDw-Js-TTB" secondAttribute="leading" constant="136" id="Hhm-e1-Aue"/>
                             <constraint firstItem="VrM-to-QRh" firstAttribute="leading" secondItem="wDw-Js-TTB" secondAttribute="leading" constant="337" id="MRP-jT-zyH"/>
                             <constraint firstItem="0nj-Ry-zfK" firstAttribute="trailing" secondItem="wDw-Js-TTB" secondAttribute="trailing" id="Nhc-Ta-f0T"/>
@@ -169,7 +179,9 @@
                             <constraint firstItem="wDw-Js-TTB" firstAttribute="trailing" secondItem="tke-m8-AQW" secondAttribute="trailing" constant="137" id="cPP-Jb-9Lg"/>
                             <constraint firstItem="JTa-HD-nAy" firstAttribute="top" secondItem="wDw-Js-TTB" secondAttribute="top" constant="293.5" id="elY-Mz-s8r"/>
                             <constraint firstItem="wDw-Js-TTB" firstAttribute="trailing" secondItem="VrM-to-QRh" secondAttribute="trailing" constant="16" id="hiQ-pm-IlT"/>
+                            <constraint firstItem="wDw-Js-TTB" firstAttribute="trailing" secondItem="oif-H7-36u" secondAttribute="trailing" constant="39" id="lGL-W1-tml"/>
                             <constraint firstItem="0nj-Ry-zfK" firstAttribute="top" secondItem="ikA-V9-lQ1" secondAttribute="top" id="lkU-EB-hr1"/>
+                            <constraint firstItem="oif-H7-36u" firstAttribute="leading" secondItem="wDw-Js-TTB" secondAttribute="leading" constant="39" id="opK-IN-Yfo"/>
                             <constraint firstItem="VrM-to-QRh" firstAttribute="top" secondItem="wDw-Js-TTB" secondAttribute="top" constant="19" id="xTr-0M-hCM"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="wDw-Js-TTB"/>

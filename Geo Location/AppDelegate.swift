@@ -12,6 +12,15 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    
+    var enableAllOrientation : Bool = false
+    
+    func application(_ application: UIApplication, supportedInterfaceOrientationsFor window: UIWindow?) -> UIInterfaceOrientationMask {
+        if (enableAllOrientation == true){
+            return UIInterfaceOrientationMask.allButUpsideDown
+        }
+        return UIInterfaceOrientationMask.portrait
+    }
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {

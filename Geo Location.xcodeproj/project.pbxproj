@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		38E7ED74228020F8002BB77E /* ChangeCityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E7ED73228020F8002BB77E /* ChangeCityViewController.swift */; };
+		38E8018422FB0EEB00E01236 /* weathericon.png in Resources */ = {isa = PBXBuildFile; fileRef = 38E8018322FB0EEB00E01236 /* weathericon.png */; };
 		38EC0BDF227D773E0011FC56 /* WeatherDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EC0BDE227D773E0011FC56 /* WeatherDataModel.swift */; };
 		38F82D2D227364BA00D1F05F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F82D2C227364BA00D1F05F /* AppDelegate.swift */; };
 		38F82D2F227364BA00D1F05F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F82D2E227364BA00D1F05F /* ViewController.swift */; };
@@ -20,6 +21,7 @@
 /* Begin PBXFileReference section */
 		3669773B52F8B0B77A5A4272 /* Pods_Geo_Location.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Geo_Location.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		38E7ED73228020F8002BB77E /* ChangeCityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeCityViewController.swift; sourceTree = "<group>"; };
+		38E8018322FB0EEB00E01236 /* weathericon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = weathericon.png; path = ../../../Downloads/weathericon.png; sourceTree = "<group>"; };
 		38EC0BDE227D773E0011FC56 /* WeatherDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDataModel.swift; sourceTree = "<group>"; };
 		38F82D29227364BA00D1F05F /* Geo Location.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Geo Location.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		38F82D2C227364BA00D1F05F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 				38F82D33227364BA00D1F05F /* Assets.xcassets */,
 				38F82D35227364BA00D1F05F /* LaunchScreen.storyboard */,
 				38F82D38227364BA00D1F05F /* Info.plist */,
+				38E8018322FB0EEB00E01236 /* weathericon.png */,
 			);
 			path = "Geo Location";
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 				38F82D37227364BA00D1F05F /* LaunchScreen.storyboard in Resources */,
 				38F82D34227364BA00D1F05F /* Assets.xcassets in Resources */,
 				38F82D32227364BA00D1F05F /* Main.storyboard in Resources */,
+				38E8018422FB0EEB00E01236 /* weathericon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

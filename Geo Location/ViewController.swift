@@ -35,6 +35,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate, ChangeCityDel
     override func viewDidLoad() {
         super.viewDidLoad()
         
+       
         
         locationManager.delegate = self
         locationManager.desiredAccuracy = kCLLocationAccuracyHundredMeters
